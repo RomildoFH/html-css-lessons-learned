@@ -9,82 +9,106 @@
     <style>
         body {
             background-color: rgb(253, 251, 251);
+            margin: 0px;
         }
-
         #cabecalho {
             top: 0px;
             position:fixed;
             z-index: 1;
-            background-color: rgb(253, 251, 251);
+            background-color: rgb(34, 32, 32);
             width: 100%;
             text-align: center;
             margin-bottom: 50px;
-            border: 2px solid;
+            margin-left: 0px;
+            border: 2px solid black;
             /* height: 100px; */
+            color: white;
         }
-
         #cabecalho-bg {
             top: 0px;
             display: block;
             z-index: 1;
-            background-color: rgb(253, 251, 251);
+            /* background-color: rgb(109, 109, 109); */
         }
-
-        #cabecalho-title {
-            
-        }
-
         #photo {
-            border: 2px solid black;
+            /* border: 2px solid black; */
             display: inline-block;
             top: 300px;
+            width: 100%;
         }
-
         #minha_foto {
-            width: 400px;
+            width: 50%;
             border-radius: 25%;
+            margin-left: 25%;
+            margin-top: 10%;
+            border: 10px solid black;
         }
-
-        #sobre {
-            border: 2px black;
-        }
-
-        #informacoes {
-
-        }
-
         #tabelas {
             width: 80%;
             display: inline-block;
-
         }
-
         #licoes_aprendidas {
             display: inline-block;
             width: 40%;
             /* border: 2px solid black; */
+            font-family: cursive;
+            box-shadow: 10px 10px rgb(58, 56, 56);
         }
-
         #licoes_a_aprender {
             display: inline-block;
             width: 40%;
             /* border: 2px solid black; */
+            box-shadow: 10px 10px rgb(58, 56, 56);
+            font-family: cursive;
         }
-
         aside {
             display: inline-block;
             width: 100%;
             /* border: 2px solid black; */
+            background-color: rgb(8, 8, 8);
+            color: white;
+            padding: 5%;         
         }
-
         #resumo {
             /* display: inline-block; */
-            width: 20%;            
+            width: 15%;            
             border: 5px black;
-            /* background-color: aqua; */
             float:right;
             text-align: justify;
-
+            /* border: 2px solid black; */
+        }
+        a:link {
+            background-color: rgb(0,0,0);
+            color: white;
+            text-decoration: none;
+            padding: 2px 10px;
+            border: 1px solid black;
+        }
+        a:visited {
+            background-color: rgb(0,0,0);
+            color: white;
+            text-decoration: none;
+            padding: 2px 10px;
+            border: 1px solid black;
+        }
+        a:hover {
+            background-color: rgba(8, 245, 39, 0.918);
+            color: rgb(10, 10, 10);
+            text-decoration: none;
+            padding: 2px 10px;
+            border: 1px solid rgb(231, 180, 38);
+            font-style: italic;
+        }
+        a:active {
+            background-color: rgba(245, 8, 8, 0.918);
+            color: rgb(10, 10, 10);
+            text-decoration: none;
+            padding: 2px 10px;
+            border: 1px solid rgb(231, 180, 38);
+            font-style: italic;
+        }
+        em {
+            font-weight: bolder;
         }
     </style>
 </head>
@@ -98,9 +122,8 @@
     </header>
     <section id="sobre">    
         <div id="photo">
-            <img id="minha_foto" src="./DSC_3432.JPG" alt="Romildo Silva">
-            <a target="_blank" href="https://www.linkedin.com/in/romildo-silva-79904092/">Romildo Silva</a>
-        </div>
+            <img id="minha_foto" src="./DSC_3432.JPG" alt="Romildo Silva">            
+        </div>        
         <div>
             <div id="informacoes">
                 <div id="tabelas">
@@ -136,15 +159,14 @@
                 </aside>
             </div>
         </div>
-    </section>
-    
+    </section>    
     <section>
-        <article>
-            <p>O curso na trybe tem sido bem desafiador. Não somente pelo tipo de conteúdo que estamos recebendo, mas pela intensidade. Poŕem, algo muito satisfatório é poder observar a rápida evolução em nossos trabalhos. Muito importante sentir que a equipe se importa conosco e além de hardskills desenvolver as softskills que são igualmente importantes.</p>
+        <article id="">
+            <p>O curso na trybe tem sido bem desafiador. Não somente pelo tipo de conteúdo que estamos recebendo, mas pela intensidade. Poŕem, algo muito satisfatório é poder observar a rápida evolução em nossos trabalhos. Muito importante sentir que a equipe se importa conosco e além de <em>hardskills</em> desenvolver as <em>softskills</em> que são igualmente importantes.</p>
         </article>
     </section>
 <footer id="rodape">
-    <p>Todos os direitos reservados, Romildo Silva</p>
+    <p>Todos os direitos reservados, <a target="_blank" href="https://www.linkedin.com/in/romildo-silva-79904092/">Romildo Silva</a></p>
 </footer>
 </body>
 </html>
