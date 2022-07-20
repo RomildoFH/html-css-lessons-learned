@@ -13,11 +13,14 @@
 
         #cabecalho {
             top: 0px;
-            /* position:fixed; */
+            position:fixed;
             z-index: 1;
             background-color: rgb(253, 251, 251);
             width: 100%;
             text-align: center;
+            margin-bottom: 50px;
+            border: 2px solid;
+            /* height: 100px; */
         }
 
         #cabecalho-bg {
@@ -25,6 +28,10 @@
             display: block;
             z-index: 1;
             background-color: rgb(253, 251, 251);
+        }
+
+        #cabecalho-title {
+            
         }
 
         #photo {
@@ -74,7 +81,7 @@
             /* display: inline-block; */
             width: 20%;            
             border: 5px black;
-            background-color: aqua;
+            /* background-color: aqua; */
             float:right;
             text-align: justify;
 
@@ -84,8 +91,8 @@
 <body>
     <header id="cabecalho">
         <div id="cabecalho-bg">
-            <div>
-                <h1 id="title">Lições Aprendidas - Fundamentals</h1>
+            <div id="cabecalho-title">
+                <h1 id="titulo">Lições Aprendidas - Fundamentals</h1>
             </div>
         </div>
     </header>
